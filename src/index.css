@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text horizontally */
+}
+
+.profile-section {
+  padding: 10px;
+  /* Add any other styling you need for the profile section */
+}
+
+.map-section {
+  margin-top: 10px; /* Add margin to separate the map from the profile */
+  /* Add any other styling you need for the map section */
+}
